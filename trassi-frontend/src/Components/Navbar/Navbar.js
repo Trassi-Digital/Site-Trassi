@@ -3,29 +3,29 @@ import * as ReactBootStrap from "react-bootstrap";
 
 function Navbar() {
   return (
-    <div>
-    <ReactBootStrap.Navbar bg="light" expand="lg">
+    
+  <ReactBootStrap.Navbar bg="light" expand="lg">
   <ReactBootStrap.Container>
   {/*   <ReactBootStrap.Navbar.Brand href="#home">React-Bootstrap</ReactBootStrap.Navbar.Brand> */}
     <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
     <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
       <ReactBootStrap.Nav className="me-auto">
-      <ReactBootStrap.Nav.Link href="#features">
+      <ReactBootStrap.Nav.Link href="#">
               O que facemos
             </ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="#pricing">
+            <ReactBootStrap.Nav.Link href="#">
               Como fazemos
             </ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="#home">
+            <ReactBootStrap.Nav.Link href="#">
               Junte-se a nos
             </ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="#features">
+            <ReactBootStrap.Nav.Link href="#">
               Cases
             </ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="#pricing">
+            <ReactBootStrap.Nav.Link href="#">
               Blog
             </ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="#pricing">
+            <ReactBootStrap.Nav.Link href="#">
               Fale conosco
             </ReactBootStrap.Nav.Link>
         {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
@@ -39,8 +39,7 @@ function Navbar() {
     </ReactBootStrap.Navbar.Collapse>
   </ReactBootStrap.Container>
 </ReactBootStrap.Navbar>
-    </div>
-  );
+    );
 }
 
 export default Navbar;

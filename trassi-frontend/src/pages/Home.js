@@ -1,7 +1,7 @@
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 
-function App() {
+function Home() {
   return (
     <div className="App">
      <Navbar/>
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

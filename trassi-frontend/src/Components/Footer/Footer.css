@@ -1,0 +1,15 @@
+.footer-img{
+    width: 150px;
+}
+
+.social-media  {
+    padding-top: 10px;
+    text-align: center;    
+    color: #003456;
+    font-size: 30px;
+}
+
+.footer-copy {
+    padding-top: 20px;
+    color:rgb(60 65 70 / 77%);
+}
