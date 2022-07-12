@@ -3,8 +3,8 @@ import * as ReactBootStrap from "react-bootstrap";
 
 function Navbar() {
   return (
-    <div>
-    <ReactBootStrap.Navbar bg="light" expand="lg">
+    
+  <ReactBootStrap.Navbar bg="light" expand="lg">
   <ReactBootStrap.Container>
   {/*   <ReactBootStrap.Navbar.Brand href="#home">React-Bootstrap</ReactBootStrap.Navbar.Brand> */}
     <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -39,8 +39,7 @@ function Navbar() {
     </ReactBootStrap.Navbar.Collapse>
   </ReactBootStrap.Container>
 </ReactBootStrap.Navbar>
-    </div>
-  );
+    );
 }
 
 export default Navbar;
