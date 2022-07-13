@@ -10,7 +10,7 @@ h1{
 h2{
     color:rgba(18, 52, 242, 0.838);
     text-align:left;
-    margin: 5px;
+    margin: 8px;
     padding: 10x;
     
 }
@@ -48,9 +48,41 @@ i{
    
 }
 .contenedor{
-   margin: 450%;
-   padding: 220px;
-   border:150px
+   margin: 40px;
+   padding: 20px;
+   border:50px;
+   margin-bottom: 50px;
+
+}
+.NossoMetodo{
+    text-align: justify;
+    margin: 15px;
+    padding: 5px;
+
+}
+.pesquisa{
+    text-align: justify;
+    text-overflow: ellipsis;
+    margin: 15px;
+    padding: 5px;
+    float:left;
+}
+
+.Ideações{
+    background: #ccc;
+    display: table;
+    height: 300px;
+    margin: 150px;
+    text-align: center;
+    width: 300px;
+    float:right;
+}
+.parrafo{
+    display: table-cell;
+    font-size: 1.67rem;
+    margin: 0;
+    padding: 0.1rem;
+    vertical-align: middle;
 }
 
   
