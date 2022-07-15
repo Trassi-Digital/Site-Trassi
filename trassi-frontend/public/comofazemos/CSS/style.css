@@ -1,3 +1,10 @@
+*body{
+    background-color: #E6E6E6;
+    color: #101010;
+    line-height: 154%;
+    margin: 0;
+    overscroll-behavior: none;
+}
 h1{
     color:rgba(18, 52, 242, 0.838);
     text-align: left;
@@ -22,15 +29,9 @@ h2{
     padding: 10px;
 
  }
-   
+   /*
 
-.colorbody{
-    background-color: #E6E6E6;
-    color: #101010;
-    line-height: 154%;
-    margin: 0;
-    overscroll-behavior: none;
-}
+
 
 
 .parrafoizquierda{
@@ -85,4 +86,37 @@ i{
     vertical-align: middle;
 }
 
-  
+  */
+  .izquierda{
+    float: left;
+    text-align: justify;
+    text-overflow: ellipsis;
+    margin: 15px;
+    padding: 5px;
+    border-style: none;
+  }
+  .derecha{
+     float: right;
+    text-align: justify;
+    text-overflow: ellipsis;
+    margin: 15px;
+    padding: 5px;
+    border-style: none;
+
+  }
+  .central{
+     float: center;
+     text-align: justify;
+     text-overflow: ellipsis;
+     margin: 15px;
+     padding: 5px;
+     border-style: none;
+    
+  }
+  .Ideações{
+    text-align: justify;
+    text-overflow: ellipsis;
+    margin: 15px;
+    padding: 5px;
+    border-style: none;
+}
