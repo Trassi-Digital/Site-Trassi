@@ -1,0 +1,15 @@
+.img-cover1, .img-cover2 {
+    padding: 0px 0px;
+    max-width: 100%;
+    height: 500px;
+}
+
+.item-cover2::before {
+    content: "";
+    width: 66%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(rgba(0, 52, 86, 0.432), rgba(0, 8, 14, 0.973)); 
+ }
